@@ -19,6 +19,7 @@ public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         System.out.println("Hello");
         DBConnection.getInstance().getConnection();
+        System.out.println("Hello");
     }
     
 }
